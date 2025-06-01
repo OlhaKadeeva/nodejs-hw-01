@@ -5,4 +5,4 @@ export const getAllContacts = async () => {
   console.log(contacts);
 };
 
-console.log(await getAllContacts());
+getAllContacts();

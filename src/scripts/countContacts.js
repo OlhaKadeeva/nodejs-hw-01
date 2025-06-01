@@ -5,4 +5,4 @@ export const countContacts = async () => {
   console.log(`Contacts: ${contacts.length}`);
 };
 
-console.log(await countContacts());
+countContacts();
